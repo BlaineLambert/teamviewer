@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <a class='leadtext' href='/'>BCCA {{ result.name }} Team</a>
-    <p>{{ result.job }}</p>
-    <ul>Members: {{ result.members }}</ul>
+    <a class='leadtext' href='/'>{{ result.name }}</a>
+    <p>{{ result.desc }}</p>
+    <ul>Cast: {{ result.cast }}</ul>
 {% endblock content %}

@@ -1,11 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1 class='leadtext'>BCCA Leadership Teams</h1>
-        {% for teams in leadershipteams %}
-            {% if teams == "Procurement" %}
-                <ul><b><a href='{% url 'team' teams %}'>{{teams}}</a></b></ul>
-            {% else %}
-            <ul><a href='{% url 'team' teams %}'>{{teams}}</a></ul>
-            {% endif %}
+    <h1 class='leadtext'>Tv Shows</h1>
+        {% for show in shows_names %}
+            <ul><a href='{% url 'team' show %}'>{{show}}</a></ul>
         {% endfor %}
 {% endblock content %}
