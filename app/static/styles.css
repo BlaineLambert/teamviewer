@@ -1,0 +1,14 @@
+body{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.leadtext{
+    font-size: 32pt;
+    text-decoration: none;
+}
+
+.teams{
+    padding: 10px;
+    font-size: 24pt;
+}
