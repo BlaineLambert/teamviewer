@@ -53,3 +53,4 @@ def display_shows(request: HttpRequest, show_name: str) -> HttpResponse:
         return render(request, "team.html", {"result": shows["yellowstone"]})
     elif show_name == "Mandalorian":
         return render(request, "team.html", {"result": shows["mandalorian"]})
+# hello
